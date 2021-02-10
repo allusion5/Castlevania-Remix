@@ -10,8 +10,6 @@ TagManager:
   - Pickup
   - Secret
   - Weapon
-  - GroundEnemy
-  - FlyingEnemy
   layers:
   - Default
   - TransparentFX

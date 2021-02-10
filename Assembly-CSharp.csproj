@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Dagger.cs" />
     <Compile Include="Assets\Scripts\PlayerGroundedCheck.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\BossController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
