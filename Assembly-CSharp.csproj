@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\FlyingEnemyController.cs" />
     <Compile Include="Assets\Scripts\Secret.cs" />
     <Compile Include="Assets\Scripts\groundEnemyController.cs" />
+    <Compile Include="Assets\Scripts\BossHealthBar.cs" />
     <Compile Include="Assets\Scripts\StairsInfo.cs" />
     <Compile Include="Assets\Scripts\HolyWater.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -72,7 +73,6 @@
     <Compile Include="Assets\Scripts\Dagger.cs" />
     <Compile Include="Assets\Scripts\PlayerGroundedCheck.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\BossHealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -17,7 +17,7 @@ public class groundEnemyController : MonoBehaviour
 
     void Start()
     {
-       gameController = GameObject.Find("UI").GetComponent<GameController>();
+       gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
        player = GameObject.FindGameObjectWithTag("Player");
        playerAttack = player.GetComponent<playerAttack>();
        groundEnemyTransform = GetComponent<Transform>();
