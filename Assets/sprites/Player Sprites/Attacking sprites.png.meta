@@ -1,0 +1,1536 @@
+fileFormatVersion: 2
+guid: 11c1ac00da1dec542be27ea5e37fcdb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3454763080311076874
+    second: Attacking sprites_0
+  - first:
+      213: 5801006678479842593
+    second: Attacking sprites_1
+  - first:
+      213: -910180906389092657
+    second: Attacking sprites_2
+  - first:
+      213: 2977095249086366067
+    second: Attacking sprites_3
+  - first:
+      213: 5040171202607664632
+    second: Attacking sprites_4
+  - first:
+      213: -4908624305294367337
+    second: Attacking sprites_5
+  - first:
+      213: -3086871099164182877
+    second: Attacking sprites_6
+  - first:
+      213: -7057317013469487666
+    second: Attacking sprites_7
+  - first:
+      213: -8096196599617615308
+    second: Attacking sprites_8
+  - first:
+      213: 777077565265719340
+    second: Attacking sprites_9
+  - first:
+      213: 3104545888047670413
+    second: Attacking sprites_10
+  - first:
+      213: -5215203244463130512
+    second: Attacking sprites_11
+  - first:
+      213: -3712580069065080957
+    second: Attacking sprites_12
+  - first:
+      213: -7190108395316228086
+    second: Attacking sprites_13
+  - first:
+      213: -9036487268446144744
+    second: Attacking sprites_14
+  - first:
+      213: -7081727573431269385
+    second: Attacking sprites_15
+  - first:
+      213: 194926723009983786
+    second: Attacking sprites_16
+  - first:
+      213: -3271014719523192059
+    second: Attacking sprites_17
+  - first:
+      213: -2174536083653143300
+    second: Attacking sprites_18
+  - first:
+      213: 1135059157062362752
+    second: Attacking sprites_19
+  - first:
+      213: -6677831648690281490
+    second: Attacking sprites_20
+  - first:
+      213: -1992293519535793387
+    second: Attacking sprites_21
+  - first:
+      213: 1984038527414515518
+    second: Attacking sprites_22
+  - first:
+      213: -6761104286330117690
+    second: Attacking sprites_23
+  - first:
+      213: -5977444085295387264
+    second: Attacking sprites_24
+  - first:
+      213: -7098555924070563981
+    second: Attacking sprites_25
+  - first:
+      213: -1213677142132867143
+    second: Attacking sprites_26
+  - first:
+      213: -380351647673466428
+    second: Attacking sprites_27
+  - first:
+      213: 4612777404455031972
+    second: Attacking sprites_28
+  - first:
+      213: -3721173101982076772
+    second: Attacking sprites_29
+  - first:
+      213: -6173700738751162886
+    second: Attacking sprites_30
+  - first:
+      213: -3264034564742197016
+    second: Attacking sprites_31
+  - first:
+      213: 8322935999929725901
+    second: Attacking sprites_32
+  - first:
+      213: -7522729445596941546
+    second: Attacking sprites_33
+  - first:
+      213: -3615132440039242160
+    second: Attacking sprites_34
+  - first:
+      213: 6916985579602933415
+    second: Attacking sprites_35
+  - first:
+      213: 3867372216678619237
+    second: Attacking sprites_36
+  - first:
+      213: 6321362887483110202
+    second: Attacking sprites_37
+  - first:
+      213: 6752213414485261618
+    second: Attacking sprites_38
+  - first:
+      213: 3092552082785685332
+    second: Attacking sprites_39
+  - first:
+      213: -3409784584240423056
+    second: Attacking sprites_40
+  - first:
+      213: 931544728040059328
+    second: Attacking sprites_41
+  - first:
+      213: 8397528112432223197
+    second: Attacking sprites_42
+  - first:
+      213: 3982471519851567345
+    second: Attacking sprites_43
+  - first:
+      213: 6632566402154779816
+    second: Attacking sprites_44
+  - first:
+      213: 1998108366434235106
+    second: Attacking sprites_45
+  - first:
+      213: -7395582210755648478
+    second: Attacking sprites_46
+  - first:
+      213: -8497012193305662678
+    second: Attacking sprites_47
+  - first:
+      213: 8379593067519671900
+    second: Attacking sprites_48
+  - first:
+      213: -5179774730996705616
+    second: Attacking sprites_49
+  - first:
+      213: -8959059812073780849
+    second: Attacking sprites_50
+  - first:
+      213: -1406752130228474927
+    second: Attacking sprites_51
+  - first:
+      213: -7187247578274383183
+    second: Attacking sprites_52
+  - first:
+      213: -2987304253708496653
+    second: Attacking sprites_53
+  - first:
+      213: 7243606736639998073
+    second: Attacking sprites_54
+  - first:
+      213: 2853574911462665000
+    second: Attacking sprites_55
+  - first:
+      213: -4098812576876104795
+    second: Attacking sprites_56
+  - first:
+      213: 9047634371885316497
+    second: Attacking sprites_57
+  - first:
+      213: 929061418685226066
+    second: Attacking sprites_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 23
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attacking sprites_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a087319a7b8c1ff20800000000000000
+      internalID: 3454763080311076874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da57ac6d0518050800000000000000
+      internalID: 5801006678479842593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6c559b9436e53f0800000000000000
+      internalID: -910180906389092657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371cb401b54c05920800000000000000
+      internalID: 2977095249086366067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd459a310942f540800000000000000
+      internalID: 5040171202607664632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_5
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795a41b833011ebb0800000000000000
+      internalID: -4908624305294367337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a636ea171b3925d0800000000000000
+      internalID: -3086871099164182877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd94d8419f5f0e90800000000000000
+      internalID: -7057317013469487666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a0110961884af80800000000000000
+      internalID: -8096196599617615308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b690bdebb8ca00800000000000000
+      internalID: 777077565265719340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d842bfd5900951b20800000000000000
+      internalID: 3104545888047670413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0787f4ec740ef97b0800000000000000
+      internalID: -5215203244463130512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_12
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f3e27e8144a7cc0800000000000000
+      internalID: -3712580069065080957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a005f90628a973c90800000000000000
+      internalID: -7190108395316228086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 426
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8177deae4b2f79280800000000000000
+      internalID: -9036487268446144744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74a85ea46a8bd90800000000000000
+      internalID: -7081727573431269385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 304
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25bd3262d484b200800000000000000
+      internalID: 194926723009983786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 304
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5030fb371750b92d0800000000000000
+      internalID: -3271014719523192059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 304
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d59ef3fe72d1e0800000000000000
+      internalID: -2174536083653143300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 304
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086a1cf1a4a80cf00800000000000000
+      internalID: 1135059157062362752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee364f50f739353a0800000000000000
+      internalID: -6677831648690281490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_21
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b91cf7993f954e0800000000000000
+      internalID: -1992293519535793387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_22
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373b3f5788b88b10800000000000000
+      internalID: 1984038527414515518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c12ce3397bbb22a0800000000000000
+      internalID: -6761104286330117690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_24
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d6537364adb0da0800000000000000
+      internalID: -5977444085295387264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_25
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f778f2ffcdc7d90800000000000000
+      internalID: -7098555924070563981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_26
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfb82fc117282fe0800000000000000
+      internalID: -1213677142132867143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_27
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c140be0138b8baf0800000000000000
+      internalID: -380351647673466428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_28
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a49d7c1c90e30040800000000000000
+      internalID: 4612777404455031972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_29
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 298
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90be9487ccbb5cc0800000000000000
+      internalID: -3721173101982076772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59b2543eb925aa0800000000000000
+      internalID: -6173700738751162886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d1f16bd1d3b2d0800000000000000
+      internalID: -3264034564742197016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc33f14f132018370800000000000000
+      internalID: 8322935999929725901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_33
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613b2d52d65e99790800000000000000
+      internalID: -7522729445596941546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_34
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0564877133874ddc0800000000000000
+      internalID: -3615132440039242160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_35
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a67bb4acb11eff50800000000000000
+      internalID: 6916985579602933415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_36
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 176
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56818557a8aaba530800000000000000
+      internalID: 3867372216678619237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_37
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 176
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33b4ccdd0ef9b750800000000000000
+      internalID: 6321362887483110202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 176
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7502635ea4bd50800000000000000
+      internalID: 6752213414485261618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_39
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 176
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fc5d7fbb3faea20800000000000000
+      internalID: 3092552082785685332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_40
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f1fb78cf20ea0d0800000000000000
+      internalID: -3409784584240423056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_41
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1373f9ef28dec00800000000000000
+      internalID: 931544728040059328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_42
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd311e483530a8470800000000000000
+      internalID: 8397528112432223197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_43
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 170
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8dcdc4fb4944730800000000000000
+      internalID: 3982471519851567345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_44
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 170
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a450ad700c9b0c50800000000000000
+      internalID: 6632566402154779816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e27c0c09f4babb10800000000000000
+      internalID: 1998108366434235106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_46
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22426bca92d9d5990800000000000000
+      internalID: -7395582210755648478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_47
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b6ad5ed6c841a80800000000000000
+      internalID: -8497012193305662678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_48
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef5d77f7b4a4470800000000000000
+      internalID: 8379593067519671900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_49
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69566635ebd18b0800000000000000
+      internalID: -5179774730996705616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_50
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f894ddb61960ba380800000000000000
+      internalID: -8959059812073780849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_51
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 42
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db25be04663a7ce0800000000000000
+      internalID: -1406752130228474927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_52
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 48
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba3b204864c14c90800000000000000
+      internalID: -7187247578274383183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_53
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 48
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f011b1db96fa86d0800000000000000
+      internalID: -2987304253708496653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_54
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 48
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978bd0ed2f5768460800000000000000
+      internalID: 7243606736639998073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_55
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 48
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be2b9534fe99720800000000000000
+      internalID: 2853574911462665000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_56
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 67
+        width: 17
+        height: 7
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a375628da71e17c0800000000000000
+      internalID: -4098812576876104795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_57
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 58
+        width: 17
+        height: 7
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199b6d95687af8d70800000000000000
+      internalID: 9047634371885316497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacking sprites_58
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 47
+        width: 26
+        height: 9
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cd04b1070b4ec00800000000000000
+      internalID: 929061418685226066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

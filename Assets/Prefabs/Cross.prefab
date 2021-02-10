@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 873278141889758137}
   m_Layer: 0
   m_Name: Cross
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1606017782698750823, guid: c81690d0751135e4f94e97c98e3c5185, type: 3}
+  m_Sprite: {fileID: 3625043607559282579, guid: 0d267bc78a0864eb48358689b29ed20a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,4 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 4054902467800088650, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+  player: {fileID: 0}
+  secret: {fileID: 0}
+  playerRigidbody: {fileID: 0}
+  playerAttack: {fileID: 0}
+  facing: 0
+  throwDirection: 0
+  range: 10
   speed: 10
+  attackDamage: 0

@@ -220,8 +220,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d552e4167b86a5b4c890f4ddf3163bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCollider: {fileID: 0}
+  UI: {fileID: 0}
+  playerHealth: 16
+  healthBar: {fileID: 0}
+  playerFacing: 1
+  isInvulnerable: 0
+  invulnerableUntil: 0
   jumpForce: 7.5
+  isHit: 0
   nearStairs: 0
+  onStairs: 0
   nearbyStairs: {fileID: 0}
   nearbyStairsTransform: {fileID: 0}
   stairsInfo: {fileID: 0}
@@ -230,10 +239,7 @@ MonoBehaviour:
   stairsFacing: 0
   stairsSlope: 0
   maxVelocity: 5
-  nextStepTime: 0
   stepRate: 5
-  onStairs: 0
-  isGrounded: 0
 --- !u!114 &9027162627284181109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,12 +254,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primaryAttackPoint: {fileID: 9027162627216938708}
   attackLength: 2
+  attackDamage: 1
+  playerGroundedCheck: {fileID: 0}
+  player: {fileID: 0}
   secondaryAttackPoint: {fileID: 9027162627489084919}
   activeSubWeapon: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
+  heartCounter: 5
+  attackRate: 2
+  moveDelay: 0
+  subWeaponsCount: 0
+  subWeaponShot: 1
+  nextMoveTime: 0
   destructableLayers:
     serializedVersion: 2
     m_Bits: 192
-  attackRate: 2
 --- !u!95 &5170594542110515001
 Animator:
   serializedVersion: 3

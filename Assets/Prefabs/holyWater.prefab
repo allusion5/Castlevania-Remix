@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8063157633252260072}
   m_Layer: 0
   m_Name: holyWater
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,4 +135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  playerRigidbody: {fileID: 0}
+  playerAttack: {fileID: 0}
+  facing: 0
   throwForce: 4.5
+  attackDamage: 1
