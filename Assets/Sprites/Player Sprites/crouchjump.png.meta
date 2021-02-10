@@ -112,12 +112,12 @@ TextureImporter:
       name: crouchjump_0
       rect:
         serializedVersion: 2
-        x: 51
+        x: 27
         y: 42
-        width: 22
+        width: 46
         height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.81, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,12 +133,12 @@ TextureImporter:
       name: crouchjump_1
       rect:
         serializedVersion: 2
-        x: 179
+        x: 155
         y: 48
-        width: 22
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

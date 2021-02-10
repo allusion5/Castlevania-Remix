@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8113 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16261 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,112 +11,73 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Cassandra/Desktop/CastleVania-Remix/Castlevania-Remix
+C:/Users/cmper/OneDrive/Documents/Unity/Castlevania-Remix
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63708
-Successfully changed project path to: C:/Users/Cassandra/Desktop/CastleVania-Remix/Castlevania-Remix
-C:/Users/Cassandra/Desktop/CastleVania-Remix/Castlevania-Remix
+52788
+Successfully changed project path to: C:/Users/cmper/OneDrive/Documents/Unity/Castlevania-Remix
+C:/Users/cmper/OneDrive/Documents/Unity/Castlevania-Remix
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Cassandra/Desktop/CastleVania-Remix/Castlevania-Remix/Assets
+[Subsystems] Discovering subsystems at path C:/Users/cmper/OneDrive/Documents/Unity/Castlevania-Remix/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Graphics 540 (ID=0x1926)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   
-    VRAM:     4056 MB
-    Driver:   24.20.100.6299
+    VRAM:     5980 MB
+    Driver:   27.21.14.5763
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004850 seconds.
+Registered in 0.002220 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.260 seconds
+- Completed reload, in  1.185 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001913 seconds.
+Registered in 0.001368 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  1.028 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.5 MB.
-System memory in use after: 84.6 MB.
+System memory in use after: 84.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 3.804200 ms (FindLiveObjects: 0.518600 ms CreateObjectMapping: 0.117400 ms MarkObjects: 3.052700 ms  DeleteObjects: 0.113600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/MainMenuScript.cs
-  artifactKey: Guid(94ca96588e829bb46971056770d298b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenuScript.cs using Guid(94ca96588e829bb46971056770d298b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf78cb7ed864a90da2ebb38db088715') in 0.063834 seconds
-  Import took 0.068734 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002946 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.3 MB.
-System memory in use after: 84.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 3.563700 ms (FindLiveObjects: 0.657200 ms CreateObjectMapping: 0.219500 ms MarkObjects: 2.652600 ms  DeleteObjects: 0.032100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 2.422200 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.106000 ms MarkObjects: 2.033800 ms  DeleteObjects: 0.059500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 94.625469 seconds.
-  path: Assets/Scripts/MainMenuScript.cs
-  artifactKey: Guid(94ca96588e829bb46971056770d298b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenuScript.cs using Guid(94ca96588e829bb46971056770d298b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b32e439ee0b15b670a0c5c47ef417f') in 0.011130 seconds
-  Import took 0.015019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 497.380605 seconds.
-  path: Assets/Sprites/Menu Graphics/Menu2Black 1.png
-  artifactKey: Guid(db4ac38dfb65f7a4c80fc9b2e3b7e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu Graphics/Menu2Black 1.png using Guid(db4ac38dfb65f7a4c80fc9b2e3b7e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d31941abc5a95982574bf91629451d') in 0.198712 seconds
-  Import took 0.210115 seconds .
+  path: Assets/Scripts/CameraFollow.cs
+  artifactKey: Guid(6e5022c59ee74bb42b89dc806206d8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraFollow.cs using Guid(6e5022c59ee74bb42b89dc806206d8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e4baad85320e4f53b1efbbba10d52') in 0.033016 seconds
+  Import took 0.037093 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

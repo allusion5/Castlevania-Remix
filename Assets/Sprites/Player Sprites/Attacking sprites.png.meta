@@ -283,12 +283,12 @@ TextureImporter:
       name: Attacking sprites_0
       rect:
         serializedVersion: 2
-        x: 29
+        x: 26
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0.0000006781684}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: Attacking sprites_1
       rect:
         serializedVersion: 2
-        x: 157
+        x: 154
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: Attacking sprites_2
       rect:
         serializedVersion: 2
-        x: 285
+        x: 282
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: Attacking sprites_3
       rect:
         serializedVersion: 2
-        x: 413
+        x: 410
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: Attacking sprites_4
       rect:
         serializedVersion: 2
-        x: 542
+        x: 539
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,12 +388,12 @@ TextureImporter:
       name: Attacking sprites_5
       rect:
         serializedVersion: 2
-        x: 670
+        x: 667
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: Attacking sprites_6
       rect:
         serializedVersion: 2
-        x: 798
+        x: 795
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: Attacking sprites_7
       rect:
         serializedVersion: 2
-        x: 926
+        x: 923
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: Attacking sprites_8
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1053
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,12 +472,12 @@ TextureImporter:
       name: Attacking sprites_9
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 1181
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: Attacking sprites_10
       rect:
         serializedVersion: 2
-        x: 1312
+        x: 1309
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,12 +514,12 @@ TextureImporter:
       name: Attacking sprites_11
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1437
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,12 +535,12 @@ TextureImporter:
       name: Attacking sprites_12
       rect:
         serializedVersion: 2
-        x: 1565
+        x: 1562
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: Attacking sprites_13
       rect:
         serializedVersion: 2
-        x: 1693
+        x: 1690
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: Attacking sprites_14
       rect:
         serializedVersion: 2
-        x: 1821
+        x: 1818
         y: 426
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,12 +598,12 @@ TextureImporter:
       name: Attacking sprites_15
       rect:
         serializedVersion: 2
-        x: 29
+        x: 26
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -619,12 +619,12 @@ TextureImporter:
       name: Attacking sprites_16
       rect:
         serializedVersion: 2
-        x: 158
+        x: 155
         y: 304
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -640,12 +640,12 @@ TextureImporter:
       name: Attacking sprites_17
       rect:
         serializedVersion: 2
-        x: 286
+        x: 283
         y: 304
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -661,12 +661,12 @@ TextureImporter:
       name: Attacking sprites_18
       rect:
         serializedVersion: 2
-        x: 414
+        x: 411
         y: 304
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,12 +682,12 @@ TextureImporter:
       name: Attacking sprites_19
       rect:
         serializedVersion: 2
-        x: 542
+        x: 539
         y: 304
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -703,12 +703,12 @@ TextureImporter:
       name: Attacking sprites_20
       rect:
         serializedVersion: 2
-        x: 669
+        x: 666
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -724,12 +724,12 @@ TextureImporter:
       name: Attacking sprites_21
       rect:
         serializedVersion: 2
-        x: 797
+        x: 794
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -745,12 +745,12 @@ TextureImporter:
       name: Attacking sprites_22
       rect:
         serializedVersion: 2
-        x: 925
+        x: 922
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: Attacking sprites_23
       rect:
         serializedVersion: 2
-        x: 1053
+        x: 1050
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -787,12 +787,12 @@ TextureImporter:
       name: Attacking sprites_24
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1179
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -808,12 +808,12 @@ TextureImporter:
       name: Attacking sprites_25
       rect:
         serializedVersion: 2
-        x: 1310
+        x: 1307
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -829,12 +829,12 @@ TextureImporter:
       name: Attacking sprites_26
       rect:
         serializedVersion: 2
-        x: 1438
+        x: 1435
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -850,12 +850,12 @@ TextureImporter:
       name: Attacking sprites_27
       rect:
         serializedVersion: 2
-        x: 1566
+        x: 1563
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -871,12 +871,12 @@ TextureImporter:
       name: Attacking sprites_28
       rect:
         serializedVersion: 2
-        x: 1696
+        x: 1693
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -892,12 +892,12 @@ TextureImporter:
       name: Attacking sprites_29
       rect:
         serializedVersion: 2
-        x: 1824
+        x: 1821
         y: 298
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: Attacking sprites_30
       rect:
         serializedVersion: 2
-        x: 32
+        x: 29
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -934,12 +934,12 @@ TextureImporter:
       name: Attacking sprites_31
       rect:
         serializedVersion: 2
-        x: 160
+        x: 157
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -955,12 +955,12 @@ TextureImporter:
       name: Attacking sprites_32
       rect:
         serializedVersion: 2
-        x: 286
+        x: 282
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -976,12 +976,12 @@ TextureImporter:
       name: Attacking sprites_33
       rect:
         serializedVersion: 2
-        x: 413
+        x: 410
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -997,12 +997,12 @@ TextureImporter:
       name: Attacking sprites_34
       rect:
         serializedVersion: 2
-        x: 541
+        x: 538
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1018,12 +1018,12 @@ TextureImporter:
       name: Attacking sprites_35
       rect:
         serializedVersion: 2
-        x: 669
+        x: 666
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1039,12 +1039,12 @@ TextureImporter:
       name: Attacking sprites_36
       rect:
         serializedVersion: 2
-        x: 798
+        x: 795
         y: 176
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1060,12 +1060,12 @@ TextureImporter:
       name: Attacking sprites_37
       rect:
         serializedVersion: 2
-        x: 926
+        x: 923
         y: 176
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1081,12 +1081,12 @@ TextureImporter:
       name: Attacking sprites_38
       rect:
         serializedVersion: 2
-        x: 1054
+        x: 1051
         y: 176
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1102,12 +1102,12 @@ TextureImporter:
       name: Attacking sprites_39
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1179
         y: 176
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1123,12 +1123,12 @@ TextureImporter:
       name: Attacking sprites_40
       rect:
         serializedVersion: 2
-        x: 1309
+        x: 1306
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1144,12 +1144,12 @@ TextureImporter:
       name: Attacking sprites_41
       rect:
         serializedVersion: 2
-        x: 1437
+        x: 1434
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1165,12 +1165,12 @@ TextureImporter:
       name: Attacking sprites_42
       rect:
         serializedVersion: 2
-        x: 1565
+        x: 1562
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1186,12 +1186,12 @@ TextureImporter:
       name: Attacking sprites_43
       rect:
         serializedVersion: 2
-        x: 1693
+        x: 1690
         y: 170
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1207,12 +1207,12 @@ TextureImporter:
       name: Attacking sprites_44
       rect:
         serializedVersion: 2
-        x: 1822
+        x: 1820
         y: 170
-        width: 43
+        width: 45
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1228,12 +1228,12 @@ TextureImporter:
       name: Attacking sprites_45
       rect:
         serializedVersion: 2
-        x: 30
+        x: 27
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1249,12 +1249,12 @@ TextureImporter:
       name: Attacking sprites_46
       rect:
         serializedVersion: 2
-        x: 158
+        x: 155
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1270,12 +1270,12 @@ TextureImporter:
       name: Attacking sprites_47
       rect:
         serializedVersion: 2
-        x: 286
+        x: 283
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1291,12 +1291,12 @@ TextureImporter:
       name: Attacking sprites_48
       rect:
         serializedVersion: 2
-        x: 413
+        x: 410
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1312,12 +1312,12 @@ TextureImporter:
       name: Attacking sprites_49
       rect:
         serializedVersion: 2
-        x: 541
+        x: 538
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1333,12 +1333,12 @@ TextureImporter:
       name: Attacking sprites_50
       rect:
         serializedVersion: 2
-        x: 669
+        x: 666
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1354,12 +1354,12 @@ TextureImporter:
       name: Attacking sprites_51
       rect:
         serializedVersion: 2
-        x: 797
+        x: 794
         y: 42
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: Attacking sprites_52
       rect:
         serializedVersion: 2
-        x: 926
+        x: 923
         y: 48
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1396,12 +1396,12 @@ TextureImporter:
       name: Attacking sprites_53
       rect:
         serializedVersion: 2
-        x: 1054
+        x: 1051
         y: 48
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1417,12 +1417,12 @@ TextureImporter:
       name: Attacking sprites_54
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 1179
         y: 48
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1438,12 +1438,12 @@ TextureImporter:
       name: Attacking sprites_55
       rect:
         serializedVersion: 2
-        x: 1310
+        x: 1307
         y: 48
-        width: 43
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
