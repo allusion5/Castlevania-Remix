@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class groundEnemyController : MonoBehaviour
 {
+    public GameController gameController;
     public Transform groundEnemyTransform;
     public Rigidbody2D groundEnemyRB;
     public int groundEnemyHealth = 1;
@@ -15,6 +17,7 @@ public class groundEnemyController : MonoBehaviour
 
     void Start()
     {
+       gameController = GameObject.Find("UI").GetComponent<GameController>();
        player = GameObject.FindGameObjectWithTag("Player");
        playerAttack = player.GetComponent<playerAttack>();
        groundEnemyTransform = GetComponent<Transform>();
@@ -27,6 +30,7 @@ public class groundEnemyController : MonoBehaviour
         if(groundEnemyHealth <= 0)
         {
             //Instantiate(enemyDrop, groundEnemyRB.position, groundEnemyTransform.rotation);
+            gameController.score += 100;
             Destroy(gameObject);
         }
         

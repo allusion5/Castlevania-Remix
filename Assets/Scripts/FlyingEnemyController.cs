@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FlyingEnemyController : MonoBehaviour
 {
+    public GameController gameController;
     public Rigidbody2D flyingEnemy;
     public Transform flyingEnemyTransform;
     public int flyingEnemyHealth = 1;
@@ -16,6 +18,7 @@ public class FlyingEnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerAttack = player.GetComponent<playerAttack>();
         flyingEnemyTransform = GetComponent<Transform>();
@@ -28,6 +31,7 @@ public class FlyingEnemyController : MonoBehaviour
         if (flyingEnemyHealth <= 0)
         {
             //Instantiate(enemyDrop, flyingEnemy.position, flyingEnemy.rotation);
+            gameController.score += 100;
             Destroy(gameObject);
         }
     }

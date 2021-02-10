@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Secret : MonoBehaviour
 {
@@ -11,10 +12,12 @@ public class Secret : MonoBehaviour
 
     public GameObject player;
     public playerAttack playerAttack;
+    //public GameController gameController;
 
     // Start is called before the first frame update
     void Start()
     {
+        //gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerAttack = player.GetComponent<playerAttack>();
         secretRB = GetComponent<Rigidbody2D>();
@@ -33,6 +36,7 @@ public class Secret : MonoBehaviour
         {
             //explosion animation
             Instantiate(secretItem, secretTransform.position, secretTransform.rotation);
+            //gameController.score += 50;
             Destroy(gameObject);
         }
     }

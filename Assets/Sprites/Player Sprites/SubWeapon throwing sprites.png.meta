@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 23b585857125bf341a8cf29df1e01151
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8419278485972767802
+    second: SubWeapon throwing sprites_0
+  - first:
+      213: -6144240895750647654
+    second: SubWeapon throwing sprites_1
+  - first:
+      213: 7496676872669377124
+    second: SubWeapon throwing sprites_2
+  - first:
+      213: 5981651739393386579
+    second: SubWeapon throwing sprites_3
+  - first:
+      213: -6836888765515712945
+    second: SubWeapon throwing sprites_4
+  - first:
+      213: 7184747365608112132
+    second: SubWeapon throwing sprites_5
+  - first:
+      213: -5733584629612116076
+    second: SubWeapon throwing sprites_6
+  - first:
+      213: -6177224151272036155
+    second: SubWeapon throwing sprites_7
+  - first:
+      213: 30246273559114830
+    second: SubWeapon throwing sprites_8
+  - first:
+      213: 107753312550793947
+    second: SubWeapon throwing sprites_9
+  - first:
+      213: 1697892069637976298
+    second: SubWeapon throwing sprites_10
+  - first:
+      213: 1317289751987943265
+    second: SubWeapon throwing sprites_11
+  - first:
+      213: 1927744089416876156
+    second: SubWeapon throwing sprites_12
+  - first:
+      213: 1467053325152726603
+    second: SubWeapon throwing sprites_13
+  - first:
+      213: -1718851752713277512
+    second: SubWeapon throwing sprites_14
+  - first:
+      213: 1303547696017633226
+    second: SubWeapon throwing sprites_15
+  - first:
+      213: 3123108337218473340
+    second: SubWeapon throwing sprites_16
+  - first:
+      213: 8064576797411890063
+    second: SubWeapon throwing sprites_17
+  - first:
+      213: 4590666274604677117
+    second: SubWeapon throwing sprites_18
+  - first:
+      213: -1229105489141953779
+    second: SubWeapon throwing sprites_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 23
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 554
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.71791196, y: 0.50153404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb218203d6b82b80800000000000000
+      internalID: -8419278485972767802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 554
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.75373566, y: 0.50153404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90da5a75754bbaa0800000000000000
+      internalID: -6144240895750647654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 554
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7179118, y: 0.50153404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462385785eb890860800000000000000
+      internalID: 7496676872669377124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 554
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358e3a89098130350800000000000000
+      internalID: 5981651739393386579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 426
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46b39224ed7e11a0800000000000000
+      internalID: -6836888765515712945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 426
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ceff99a955b360800000000000000
+      internalID: 7184747365608112132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 426
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497845e38273e60b0800000000000000
+      internalID: -5733584629612116076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 426
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8677ddc57164aa0800000000000000
+      internalID: -6177224151272036155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 298
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7716478, y: 0.46570978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44354753d47b6000800000000000000
+      internalID: 30246273559114830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 298
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8074717, y: 0.41197374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd236fd1111de7100800000000000000
+      internalID: 107753312550793947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 298
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7716478, y: 0.4298862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae079bd67df109710800000000000000
+      internalID: 1697892069637976298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 298
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167f085dc04f74210800000000000000
+      internalID: 1317289751987943265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 170
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7287035, y: 0.4879598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c704d832909b0ca10800000000000000
+      internalID: 1927744089416876156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 170
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4879598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ea848f9350c5410800000000000000
+      internalID: 1467053325152726603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 170
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.67129654, y: 0.4879598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfa7f110796528e0800000000000000
+      internalID: -1718851752713277512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 170
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.71844345, y: 0.47953185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfe8e819b1271210800000000000000
+      internalID: 1303547696017633226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6755251, y: 0.44054684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dc7fa5c72875b20800000000000000
+      internalID: 3123108337218473340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7489495, y: 0.41607207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83d7998ed12bef60800000000000000
+      internalID: 8064576797411890063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7244751, y: 0.44054684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77d2487a255bf30800000000000000
+      internalID: 4590666274604677117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon throwing sprites_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7734246, y: 0.39159715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b0638d11751fee0800000000000000
+      internalID: -1229105489141953779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

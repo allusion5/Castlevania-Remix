@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class heart : MonoBehaviour
 {
+    public GameController gameController;
     public GameObject player;
     public playerAttack playerAttack;
     //private Transform heartTransform;
@@ -12,6 +14,7 @@ public class heart : MonoBehaviour
 
     void Start()
     {
+        gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerAttack = player.GetComponent<playerAttack>();
         //heartTransform = GetComponent<Transform>();
@@ -28,6 +31,7 @@ public class heart : MonoBehaviour
             if (collision.CompareTag("Player"))
             {
                 playerAttack.heartCounter += 1;
+            gameController.score += 50;
                 Destroy(gameObject);
             }
             if (collision.CompareTag("Ground"))

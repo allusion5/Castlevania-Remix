@@ -25,8 +25,8 @@ public class playerAttack : MonoBehaviour
     public LayerMask destructableLayers;
     void Start()
     {
-        playerGroundedCheck = GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<PlayerGroundedCheck>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        playerGroundedCheck = player.GetComponentInChildren<PlayerGroundedCheck>();
     }
 
     void FixedUpdate()
