@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Dagger.cs" />
      <Compile Include="Assets\Scripts\PlayerGroundedCheck.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
