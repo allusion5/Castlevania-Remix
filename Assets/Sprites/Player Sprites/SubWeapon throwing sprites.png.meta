@@ -166,12 +166,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 26
         y: 554
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.71791196, y: 0.50153404}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 157
         y: 554
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.75373566, y: 0.50153404}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_2
       rect:
         serializedVersion: 2
-        x: 287
+        x: 282
         y: 554
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7179118, y: 0.50153404}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_3
       rect:
         serializedVersion: 2
-        x: 415
+        x: 410
         y: 554
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_4
       rect:
         serializedVersion: 2
-        x: 30
+        x: 27
         y: 426
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_5
       rect:
         serializedVersion: 2
-        x: 158
+        x: 157
         y: 426
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_6
       rect:
         serializedVersion: 2
-        x: 286
+        x: 283
         y: 426
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_7
       rect:
         serializedVersion: 2
-        x: 414
+        x: 411
         y: 426
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_8
       rect:
         serializedVersion: 2
-        x: 30
+        x: 29
         y: 298
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7716478, y: 0.46570978}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_9
       rect:
         serializedVersion: 2
-        x: 158
+        x: 157
         y: 298
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.8074717, y: 0.41197374}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_10
       rect:
         serializedVersion: 2
-        x: 286
+        x: 285
         y: 298
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7716478, y: 0.4298862}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,12 +397,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_11
       rect:
         serializedVersion: 2
-        x: 414
+        x: 413
         y: 298
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_12
       rect:
         serializedVersion: 2
-        x: 33
+        x: 26
         y: 170
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7287035, y: 0.4879598}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,12 +439,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_13
       rect:
         serializedVersion: 2
-        x: 161
+        x: 157
         y: 170
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7, y: 0.4879598}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,12 +460,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_14
       rect:
         serializedVersion: 2
-        x: 289
+        x: 282
         y: 170
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.67129654, y: 0.4879598}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_15
       rect:
         serializedVersion: 2
-        x: 417
+        x: 410
         y: 170
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.71844345, y: 0.47953185}
+      pivot: {x: 0.82, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_16
       rect:
         serializedVersion: 2
-        x: 32
+        x: 27
         y: 48
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.6755251, y: 0.44054684}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_17
       rect:
         serializedVersion: 2
-        x: 160
+        x: 157
         y: 48
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7489495, y: 0.41607207}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -544,12 +544,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_18
       rect:
         serializedVersion: 2
-        x: 288
+        x: 283
         y: 48
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7244751, y: 0.44054684}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: SubWeapon throwing sprites_19
       rect:
         serializedVersion: 2
-        x: 416
+        x: 411
         y: 48
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7734246, y: 0.39159715}
+      pivot: {x: 0.8, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

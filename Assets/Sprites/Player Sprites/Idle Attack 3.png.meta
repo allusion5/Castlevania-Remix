@@ -118,12 +118,12 @@ TextureImporter:
       name: Idle Attack 3_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 29
         y: 42
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7760259, y: 0.4674945}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +139,12 @@ TextureImporter:
       name: Idle Attack 3_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 157
         y: 42
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7760259, y: 0.4674945}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: Idle Attack 3_2
       rect:
         serializedVersion: 2
-        x: 286
-        y: 41
-        width: 45
+        x: 285
+        y: 42
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7760259, y: 0.4674945}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Idle Attack 3_3
       rect:
         serializedVersion: 2
-        x: 414
+        x: 413
         y: 42
-        width: 45
+        width: 46
         height: 45
       alignment: 9
-      pivot: {x: 0.7760259, y: 0.4674945}
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
