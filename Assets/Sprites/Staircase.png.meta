@@ -82,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,18 +123,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -144,10 +132,10 @@ TextureImporter:
         serializedVersion: 2
         x: 112
         y: 627
-        width: 5
-        height: 15
+        width: 30
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +151,12 @@ TextureImporter:
       name: Staircase_1
       rect:
         serializedVersion: 2
-        x: 122
-        y: 627
-        width: 5
-        height: 20
+        x: 385
+        y: 638
+        width: 29
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +172,12 @@ TextureImporter:
       name: Staircase_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 627
-        width: 5
-        height: 41
+        x: 644
+        y: 635
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +193,12 @@ TextureImporter:
       name: Staircase_3
       rect:
         serializedVersion: 2
-        x: 385
-        y: 639
+        x: 128
+        y: 355
         width: 29
-        height: 24
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +214,12 @@ TextureImporter:
       name: Staircase_4
       rect:
         serializedVersion: 2
-        x: 643
-        y: 635
-        width: 29
-        height: 28
+        x: 374
+        y: 369
+        width: 30
+        height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +235,12 @@ TextureImporter:
       name: Staircase_5
       rect:
         serializedVersion: 2
-        x: 127
-        y: 355
+        x: 618
+        y: 381
         width: 29
-        height: 50
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +256,12 @@ TextureImporter:
       name: Staircase_6
       rect:
         serializedVersion: 2
-        x: 374
-        y: 369
-        width: 5
-        height: 41
+        x: 102
+        y: 120
+        width: 28
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +277,12 @@ TextureImporter:
       name: Staircase_7
       rect:
         serializedVersion: 2
-        x: 389
-        y: 369
-        width: 5
-        height: 20
+        x: 360
+        y: 97
+        width: 28
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,94 +294,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Staircase_8
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 369
-        width: 5
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa06505fa392d6770800000000000000
-      internalID: 8605579796170498218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Staircase_9
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 381
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bfdaeb0d8ad83960800000000000000
-      internalID: 7582050272003415993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Staircase_10
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 119
-        width: 29
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a408136c9cd1e8250800000000000000
-      internalID: 5948724910253768778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Staircase_11
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 97
-        width: 29
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4603ee8bf2cc10d70800000000000000
-      internalID: 9007705235055849572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d400f9c269179e34ab948a46cc6c9674
     internalID: 0
     vertices: []
     indices: 
