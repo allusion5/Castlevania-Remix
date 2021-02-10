@@ -10,8 +10,11 @@ TagManager:
   - Pickup
   - Secret
   - Weapon
+<<<<<<< HEAD
   - GroundEnemy
   - FlyingEnemy
+=======
+>>>>>>> upstream/main
   layers:
   - Default
   - TransparentFX
