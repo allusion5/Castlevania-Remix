@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class playerController : MonoBehaviour
@@ -24,6 +25,8 @@ public class playerController : MonoBehaviour
 
     public bool nearStairs = false;
     public bool onStairs = false;
+    public bool goingUp = false;
+    public bool goingDown = false;
     public GameObject nearbyStairs;
     public Transform nearbyStairsTransform;
     public StairsInfo stairsInfo;
@@ -34,9 +37,6 @@ public class playerController : MonoBehaviour
     public float maxVelocity;
     public float stepRate = 4f;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
         playerGroundedCheck = GetComponentInChildren<PlayerGroundedCheck>();
@@ -45,7 +45,7 @@ public class playerController : MonoBehaviour
         playerCollider = GetComponent<CapsuleCollider2D>();
         playerAttack = GetComponent<playerAttack>();
         UI = FindObjectOfType<Canvas>();
-        healthBar = UI.GetComponentInChildren<PlayerHealthBar>();
+        //healthBar = UI.GetComponentInChildren<PlayerHealthBar>();
     }
     void FixedUpdate()
     {
@@ -59,10 +59,17 @@ public class playerController : MonoBehaviour
             isHit = false;
         }
 
-            if (playerGroundedCheck.isGrounded == true && onStairs == false && isHit == false && isDead == false)
-            {
-                player.gravityScale = 1f;
+        if (onStairs == false)
+        {
+            player.gravityScale = 1f;
+            playerCollider.isTrigger = false;
+            playerGroundedCheck.groundedCollider.enabled = true;
+            goingDown = false;
+            goingUp = false;
+            playerGroundedCheck.canExitAtStart = false;
 
+            if (playerGroundedCheck.isGrounded == true && isHit == false && isDead == false)
+            {
                 if (player.velocity.x > 0)
                 {
                     transform.localScale = new Vector3(1, 1, 1);
@@ -131,18 +138,26 @@ public class playerController : MonoBehaviour
                             ApproachingStairsEntranceFromRightPositiveSlope();
                         }
                     }
-                }           
+                }
             }
-
+        }
         if (onStairs == true)
         {
-            if (stairsSlope == 1)
+            if (stairsFacing == 1 && stairsSlope == 1)
             {
-                PositiveSlopeStairs();
+                PositiveSlopeStairsFromLeft();
             }
-            else if (stairsSlope == -1)
+            else if(stairsFacing == 1 && stairsSlope == -1)
             {
-                NegativeSlopeStairs();
+                NegativeSlopeStairsFromLeft();
+            }
+            else if (stairsFacing == -1 && stairsSlope == -1)
+            {
+                NegativeSlopeStairsFromRight();
+            }
+            else if (stairsFacing == -1 && stairsSlope == 1)
+            {
+                PositiveSlopeStairsFromRight();
             }
         }
     }
@@ -193,6 +208,7 @@ public class playerController : MonoBehaviour
             stairsEndPoint = stairsInfo.endPoint.transform.position;
             transform.localScale = new Vector3(1, 1, 1);
             onStairs = true;
+            playerGroundedCheck.groundedCollider.enabled = false;
             player.velocity = Vector2.zero;
         }
     }
@@ -217,6 +233,7 @@ public class playerController : MonoBehaviour
             stairsEndPoint = stairsInfo.endPoint.transform.position;
             transform.localScale = new Vector3(-1, 1, 1);
             onStairs = true;
+            playerGroundedCheck.groundedCollider.enabled = false;
             player.velocity = Vector2.zero;
         }
     }
@@ -245,10 +262,9 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void PositiveSlopeStairs()
+    void PositiveSlopeStairsFromLeft()
     {
-        if (onStairs == true)
-        {
+            goingUp = true;
             player.gravityScale = 0f;
             playerCollider.isTrigger = true;
             if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
@@ -261,12 +277,43 @@ public class playerController : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
-        }
     }
-    void NegativeSlopeStairs()
+
+    void PositiveSlopeStairsFromRight()
     {
-        if (onStairs == true)
-        {
+            goingDown = true;
+            player.gravityScale = 0f;
+            playerCollider.isTrigger = true;
+            if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") < 0)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+                player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
+            }
+            else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
+            }
+    }
+    void NegativeSlopeStairsFromLeft()
+    {
+            goingDown = true;
+            player.gravityScale = 0f;
+            playerCollider.isTrigger = true;
+            if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") < 0)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
+            }
+            else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+                player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
+            }
+    }
+    void NegativeSlopeStairsFromRight()
+    {
+            goingUp = true;
             player.gravityScale = 0f;
             playerCollider.isTrigger = true;
             if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0)
@@ -279,7 +326,6 @@ public class playerController : MonoBehaviour
                 transform.localScale = new Vector3(1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
-        }
     }
 
     void TakeDamage()
@@ -307,10 +353,11 @@ public class playerController : MonoBehaviour
     public void Die()
     {
         isDead = true;
+        //SceneManager.LoadScene()
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Stairs"))
+        if (collision.gameObject.CompareTag("Stairs") && playerGroundedCheck.isGrounded == true)
         {
             nearStairs = true;
             nearbyStairs = collision.gameObject;
