@@ -74,6 +74,7 @@ MonoBehaviour:
   player: {fileID: 0}
   groundedCollider: {fileID: 0}
   playerController: {fileID: 0}
+  playerAnimator: {fileID: 0}
   isGrounded: 0
   canExitAtStart: 0
 --- !u!1 &4054902467761788360
@@ -251,7 +252,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   playerFacing: 1
   isInvulnerable: 0
-  invulnerableUntil: 0
+  invulnerableDuration: 3
   jumpForce: 7.5
   isHit: 0
   isDead: 0
@@ -270,6 +271,7 @@ MonoBehaviour:
   stairsSlope: 0
   maxVelocity: 5
   stepRate: 5
+  isCrouching: 0
 --- !u!114 &4054902467800088651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,13 +290,15 @@ MonoBehaviour:
   attackDamage: 1
   playerGroundedCheck: {fileID: 0}
   player: {fileID: 0}
+  playerController: {fileID: 0}
   secondaryAttackPoint: {fileID: 4054902467761788361}
   activeSubWeapon: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
   heartCounter: 5
-  attackRate: 0.75
-  moveDelay: 0
+  attackRate: 0.4
+  moveDelay: 0.4
   subWeaponsCount: 0
   subWeaponShot: 1
+  morningStar: 0
   nextMoveTime: 0
   playerAnimator: {fileID: 0}
   destructableLayers:

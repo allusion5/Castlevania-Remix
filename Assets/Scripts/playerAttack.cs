@@ -8,7 +8,7 @@ public class playerAttack : MonoBehaviour
     public Transform primaryAttackPoint;
     public float attackLength = 0.75f; //1.55 for max length
     public Vector2 attackRange;
-    public int attackDamage = 1;
+    public int attackDamage = 2;
 
     public PlayerGroundedCheck playerGroundedCheck;
     public Rigidbody2D player;
@@ -17,7 +17,6 @@ public class playerAttack : MonoBehaviour
     public GameObject activeSubWeapon;
 
     public int heartCounter = 5;
-    public bool isAttacking = false;
     public float attackRate;
     public float moveDelay;
     public int subWeaponsCount = 0;
@@ -39,6 +38,14 @@ public class playerAttack : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (morningStar >= 1)
+        { 
+            attackDamage = 4;
+        }
+        if(morningStar >= 2)
+        {
+            attackLength = 1.55f;
+        }
         attackRange = new Vector2(attackLength, 0.4f);
 
         if (Input.GetKey(KeyCode.Space) && Time.time >= nextAttackTime)
@@ -58,37 +65,36 @@ public class playerAttack : MonoBehaviour
 
     void PrimaryAttack()
     {
-        isAttacking = true;
         if (playerGroundedCheck.isGrounded == true)
         {
-            if(playerController.isCrouching == true)
+            if (playerController.isCrouching == true)
             {
-                playerAnimator.SetInteger("State", 16 + morningStar);
+                playerAnimator.Play("Crouch Attack " + (1 + morningStar).ToString());
             }
             else
-            playerAnimator.SetInteger("State", 8 + morningStar);
-            player.velocity = Vector2.zero;
+                playerAnimator.Play("Idle Attack " + (1 + morningStar).ToString());
+                player.velocity = Vector2.zero;
         }
-        
+
         if (playerGroundedCheck.isGrounded == false && playerController.onStairs == false)
         {
-            playerAnimator.SetInteger("State", 12 + morningStar);
+            playerAnimator.Play("Jump Attack " + (1 + morningStar).ToString());
         }
 
         if (playerController.onStairs == true)
         {
-            if (playerController.playerFacing == 1)
+            if (playerAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Upstairs"))
             {
-                playerAnimator.SetInteger("State", 20 + morningStar);
+                playerAnimator.Play("Upstairs Attack " + (1 + morningStar).ToString());
             }
-            else if (playerController.playerFacing == -1)
+            else if (playerAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Downstairs"))
             {
-                playerAnimator.SetInteger("State", 24 + morningStar);
+                playerAnimator.Play("Downstairs Attack " + (1 + morningStar).ToString());
             }
         }
 
-        //detect destructables
-        Collider2D[] hitDestructables = Physics2D.OverlapBoxAll(primaryAttackPoint.position, attackRange, 0f, destructableLayers);
+    //detect destructables
+    Collider2D[] hitDestructables = Physics2D.OverlapBoxAll(primaryAttackPoint.position, attackRange, 0f, destructableLayers);
 
         //deal damage
         foreach(Collider2D destructable in hitDestructables)
@@ -106,35 +112,39 @@ public class playerAttack : MonoBehaviour
                 destructable.GetComponent<FlyingEnemyController>().TakeDamage(attackDamage);
             }
         }
-        isAttacking = false;
     }
 
     void SecondaryAttack()
     {
-        isAttacking = true;
         if (playerGroundedCheck.isGrounded == true)
         {
-            if(playerController.isCrouching == true)
+            if (playerController.isCrouching == true)
             {
-                playerAnimator.SetInteger("State", 19);
+                playerAnimator.Play("Crouch Sub");
             }
             else
-            playerAnimator.SetInteger("State", 11);
-            player.velocity = Vector2.zero;
+                playerAnimator.Play("Idle Sub");
+                player.velocity = Vector2.zero;
         }
         else if (playerGroundedCheck.isGrounded == false && playerController.onStairs == false)
         {
-            playerAnimator.SetInteger("State", 15);
+            playerAnimator.Play("Jump Sub");
         }
 
         if (playerController.onStairs == true)
         {
-            playerAnimator.SetInteger("State", 23);
+            if (playerAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Upstairs"))
+            {
+                playerAnimator.Play("Upstairs Sub");
+            }
+            else if (playerAnimator.GetCurrentAnimatorStateInfo(0).IsTag("Downstairs"))
+            {
+                playerAnimator.Play("Downstairs Sub");
+            }
         }
 
         Instantiate(activeSubWeapon, secondaryAttackPoint.position, secondaryAttackPoint.rotation);
         subWeaponsCount += 1;
-        isAttacking = false;
     }
         void OnDrawGizmos()
     {

@@ -9,6 +9,7 @@ public class playerController : MonoBehaviour
 {
     private Transform playerTransform;
     private Rigidbody2D player;
+    private SpriteRenderer playerSprite;
     public CapsuleCollider2D playerCollider;
     private PlayerGroundedCheck playerGroundedCheck;
     private playerAttack playerAttack;
@@ -17,7 +18,7 @@ public class playerController : MonoBehaviour
     public PlayerHealthBar healthBar;
     public int playerFacing = 1;
     public bool isInvulnerable;
-    public float invulnerableUntil;
+    public float invulnerableDuration;
     public float jumpForce;
     public bool isHit = false;
     public bool isDead = false;
@@ -44,6 +45,7 @@ public class playerController : MonoBehaviour
     public bool isCrouching;
     void Start()
     {
+        playerSprite = GetComponent<SpriteRenderer>();
         playerGroundedCheck = GetComponentInChildren<PlayerGroundedCheck>();
         playerTransform = GetComponent<Transform>();
         player = GetComponent<Rigidbody2D>();
@@ -54,17 +56,33 @@ public class playerController : MonoBehaviour
         primaryAttackPoint = transform.Find("primaryAttackPoint");
         subAttackPoint = transform.Find("subAttackPoint");
         playerAnimator = GetComponent<Animator>();
+
+        /*playerHealth = 16;
+        playerFacing = 1;
+        isInvulnerable = false;
+        invulnerableDuration = 3;
+        jumpForce = 7.5f;
+        isHit = false;
+        isDead = false;
+        speed = 5f;
+        nearStairs = false;
+        onStairs = false;
+        goingUp = false;
+        goingDown = false;
+        stairsStartPoint = Vector2.zero;
+        stairsEndPoint = Vector2.zero;
+        nearbyStairs = null;
+        stairsInfo = null;
+        stairsFacing = 0;
+        stairsSlope = 0;
+        maxVelocity = 5f;
+        stepRate = 4f;
+        */
     }
     void Update()
     {
-        /*if (playerGroundedCheck.isGrounded == false && onStairs == false && playerAttack.isAttacking == false)
-        {
-            playerAnimator.SetInteger("State", 2);
-        }*/
         if (onStairs == true)
         {
-            if(playerAttack.isAttacking == false)
-            {
             if (stairsSlope == 1)
             {
                 if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") != 0)
@@ -116,20 +134,9 @@ public class playerController : MonoBehaviour
                 }
             }
         }
-            }
     }
     void FixedUpdate()
     {
-        if (Time.time >= invulnerableUntil && isDead == false)
-        {
-            isInvulnerable = false;
-        }
-
-        if (Time.time >= playerAttack.nextMoveTime && isDead == false)
-        {
-            isHit = false;
-        }
-
         if (onStairs == false)
         {
             player.gravityScale = 1f;
@@ -218,7 +225,7 @@ public class playerController : MonoBehaviour
                 }
             }
         }
-        if (onStairs == true)
+        if (onStairs == true && Time.time >= playerAttack.nextMoveTime)
         {
             if (stairsFacing == 1 && stairsSlope == 1)
             {
@@ -418,19 +425,18 @@ public class playerController : MonoBehaviour
         if (playerHealth > 0)
         {
             isHit = true;
-            playerAnimator.SetInteger("State", 6);
             playerAttack.nextMoveTime = Time.time + 0.75f;
-            isInvulnerable = true;
             playerHealth -= 4;
-            invulnerableUntil = 2.75f + Time.time;
             
             if (onStairs == false)
             {
+                playerAnimator.SetInteger("State", 6);
                 player.AddForce(new Vector2(playerFacing * -4f, 4f), ForceMode2D.Impulse);
             }
+            StartCoroutine(InvulnerableFlash());
         }
 
-        if (playerHealth <= 0)
+        if (playerHealth <= 0 && isDead == false)
         {
             Die();
         }
@@ -438,10 +444,33 @@ public class playerController : MonoBehaviour
 
     public void Die()
     {
+        onStairs = false;
         isDead = true;
+        playerAnimator.Play("Death");
         playerAnimator.SetInteger("State", 7);
         //SceneManager.LoadScene()
     }
+
+    private IEnumerator InvulnerableFlash()
+    {
+        isHit = false;
+        isInvulnerable = true;
+        for (float i = 0; i < invulnerableDuration; i += 0.25f)
+        {
+            playerSprite.enabled = false;
+            yield return new WaitForSeconds(0.125f);
+            playerSprite.enabled = true;
+            yield return new WaitForSeconds(0.125f);
+        }
+
+        playerSprite.enabled = true;
+        isInvulnerable = false;
+        if (isDead == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Stairs") && playerGroundedCheck.isGrounded == true)
@@ -456,8 +485,6 @@ public class playerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy") && isInvulnerable == false && isHit == false)
         {
             TakeDamage();
-            //knockback + take damage + invincibility
-            //die if necessary
         }
     }
     void OnTriggerExit2D(Collider2D collision)

@@ -40,6 +40,7 @@ public class PlayerGroundedCheck : MonoBehaviour
                         groundedCollider.enabled = true;
                         playerController.goingUp = false;
                         canExitAtStart = false;
+                        playerAnimator.Play("Idle");
                     }
                 }
                 if (playerTransform.position == new Vector3(playerController.stairsEndPoint.x, playerController.stairsEndPoint.y, 0))
@@ -47,6 +48,7 @@ public class PlayerGroundedCheck : MonoBehaviour
                     playerController.onStairs = false;
                     playerController.playerCollider.isTrigger = false;
                     playerController.goingUp = false;
+                    playerAnimator.Play("Jump");
                 }
             }
             if (playerController.goingDown == true)
@@ -59,10 +61,11 @@ public class PlayerGroundedCheck : MonoBehaviour
                 {
                     if (playerTransform.position.x == playerController.stairsStartPoint.x)
                     {
+                        playerAnimator.Play("Jump");
                         playerController.onStairs = false;
                         groundedCollider.enabled = true;
                         playerController.goingDown = false;
-                        canExitAtStart = false;   
+                        canExitAtStart = false;
                     }
                 }
                 if (playerTransform.position.y <= playerController.stairsStartPoint.y - 1)
@@ -80,6 +83,7 @@ public class PlayerGroundedCheck : MonoBehaviour
         {
             if (playerController.goingDown == true)
             {
+                playerAnimator.Play("Idle");
                 isGrounded = true;
                 playerController.onStairs = false;
                 playerController.playerCollider.isTrigger = false;
