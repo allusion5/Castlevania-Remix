@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class PlayerGroundedCheck : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerGroundedCheck : MonoBehaviour
     public Rigidbody2D player;
     public BoxCollider2D groundedCollider;
     public playerController playerController;
+    public Animator playerAnimator;
     public bool isGrounded;
     public bool canExitAtStart;
 
@@ -17,6 +19,7 @@ public class PlayerGroundedCheck : MonoBehaviour
         playerTransform = GetComponentInParent<Transform>();
         groundedCollider = GetComponent<BoxCollider2D>();
         playerController = GetComponentInParent<playerController>();
+        playerAnimator = GetComponentInParent<Animator>();
     }
 
     private void FixedUpdate()
@@ -25,6 +28,20 @@ public class PlayerGroundedCheck : MonoBehaviour
         {
             if (playerController.goingUp == true)
             {
+                if (playerTransform.position.x != playerController.stairsStartPoint.x)
+                {
+                    canExitAtStart = true;
+                }
+                if (canExitAtStart == true)
+                {
+                    if (playerTransform.position.x == playerController.stairsStartPoint.x)
+                    {
+                        playerController.onStairs = false;
+                        groundedCollider.enabled = true;
+                        playerController.goingUp = false;
+                        canExitAtStart = false;
+                    }
+                }
                 if (playerTransform.position == new Vector3(playerController.stairsEndPoint.x, playerController.stairsEndPoint.y, 0))
                 {
                     playerController.onStairs = false;
@@ -45,8 +62,7 @@ public class PlayerGroundedCheck : MonoBehaviour
                         playerController.onStairs = false;
                         groundedCollider.enabled = true;
                         playerController.goingDown = false;
-                        canExitAtStart = false;
-                        
+                        canExitAtStart = false;   
                     }
                 }
                 if (playerTransform.position.y <= playerController.stairsStartPoint.y - 1)
@@ -89,6 +105,7 @@ public class PlayerGroundedCheck : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+            playerAnimator.SetInteger("State", 2);
         }
     }
 }

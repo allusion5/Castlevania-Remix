@@ -28091,6 +28091,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4054902467800088650, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088650, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 58.77
       objectReference: {fileID: 0}
@@ -28131,9 +28135,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4054902467800088651, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: moveDelay
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088651, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: attackRate
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088651, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: attackLength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088651, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
       propertyPath: activeSubWeapon
       value: 
       objectReference: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
+    - target: {fileID: 4054902467800088653, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088653, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 719424173183062293, guid: 14bfb12aa2595134597362ee3e2c2cce, type: 3}
+    - target: {fileID: 4054902467800088654, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: maxVelocity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054902467800088654, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
+      propertyPath: playerHealth
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5113864976763786223, guid: fc0fc025522dafa4784f32fc75dbfbde, type: 3}
       propertyPath: isGrounded
       value: 0

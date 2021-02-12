@@ -70,9 +70,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47f708937ac1b7c429ead711654766b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  player: {fileID: 0}
   groundedCollider: {fileID: 0}
   playerController: {fileID: 0}
   isGrounded: 0
+  canExitAtStart: 0
 --- !u!1 &4054902467761788360
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,12 +185,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 719424173183062293, guid: 14bfb12aa2595134597362ee3e2c2cce, type: 3}
+  m_Sprite: {fileID: 2977095249086366067, guid: 11c1ac00da1dec542be27ea5e37fcdb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2, y: 1.9565217}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -244,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCollider: {fileID: 0}
   UI: {fileID: 0}
-  playerHealth: 5
+  playerHealth: 16
   healthBar: {fileID: 0}
   playerFacing: 1
   isInvulnerable: 0
@@ -252,8 +255,12 @@ MonoBehaviour:
   jumpForce: 7.5
   isHit: 0
   isDead: 0
+  primaryAttackPoint: {fileID: 0}
+  subAttackPoint: {fileID: 0}
   nearStairs: 0
   onStairs: 0
+  goingUp: 0
+  goingDown: 0
   nearbyStairs: {fileID: 0}
   nearbyStairsTransform: {fileID: 0}
   stairsInfo: {fileID: 0}
@@ -276,18 +283,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primaryAttackPoint: {fileID: 4054902468538169066}
-  attackLength: 2
+  attackLength: 0.75
+  attackRange: {x: 0, y: 0}
   attackDamage: 1
   playerGroundedCheck: {fileID: 0}
   player: {fileID: 0}
   secondaryAttackPoint: {fileID: 4054902467761788361}
-  activeSubWeapon: {fileID: 8579718418857975840, guid: 135beb54edde8bd4db303d653dd470d8, type: 3}
+  activeSubWeapon: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
   heartCounter: 5
   attackRate: 0.75
   moveDelay: 0
   subWeaponsCount: 0
   subWeaponShot: 1
   nextMoveTime: 0
+  playerAnimator: {fileID: 0}
   destructableLayers:
     serializedVersion: 2
     m_Bits: 192
@@ -335,7 +344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4054902468538169069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.7, y: -0.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4054902467800088650}
@@ -381,7 +390,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -389,6 +398,6 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Animations;
 
 public class playerController : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class playerController : MonoBehaviour
     public bool isDead = false;
     private float speed = 5f;
 
+    public Transform primaryAttackPoint;
+    public Transform subAttackPoint;
 
     public bool nearStairs = false;
     public bool onStairs = false;
@@ -37,6 +40,8 @@ public class playerController : MonoBehaviour
     public float maxVelocity;
     public float stepRate = 4f;
 
+    private Animator playerAnimator;
+    public bool isCrouching;
     void Start()
     {
         playerGroundedCheck = GetComponentInChildren<PlayerGroundedCheck>();
@@ -46,6 +51,72 @@ public class playerController : MonoBehaviour
         playerAttack = GetComponent<playerAttack>();
         UI = FindObjectOfType<Canvas>();
         //healthBar = UI.GetComponentInChildren<PlayerHealthBar>();
+        primaryAttackPoint = transform.Find("primaryAttackPoint");
+        subAttackPoint = transform.Find("subAttackPoint");
+        playerAnimator = GetComponent<Animator>();
+    }
+    void Update()
+    {
+        /*if (playerGroundedCheck.isGrounded == false && onStairs == false && playerAttack.isAttacking == false)
+        {
+            playerAnimator.SetInteger("State", 2);
+        }*/
+        if (onStairs == true)
+        {
+            if(playerAttack.isAttacking == false)
+            {
+            if (stairsSlope == 1)
+            {
+                if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") != 0)
+                {
+                    if (playerFacing == 1)
+                    {
+                        playerAnimator.SetInteger("State", 4);
+                    }
+                    else if (playerFacing == -1)
+                    {
+                        playerAnimator.SetInteger("State", 5);
+                    }
+                }
+                else if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") == 0)
+                {
+                    if (playerFacing == 1)
+                    {
+                        playerAnimator.SetInteger("State", 28);
+                    }
+                    else if (playerFacing == -1)
+                    {
+                        playerAnimator.SetInteger("State", 29);
+                    }
+                }
+            }
+            else if (stairsSlope == -1)
+            {
+                if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") != 0)
+                {
+                    if (playerFacing == 1)
+                    {
+                        playerAnimator.SetInteger("State", 5);
+                    }
+                    else if (playerFacing == -1)
+                    {
+                        playerAnimator.SetInteger("State", 4);
+                    }
+                }
+                else if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") == 0)
+                {
+                    if (playerFacing == 1)
+                    {
+                        playerAnimator.SetInteger("State", 29);
+                    }
+                    else if (playerFacing == -1)
+                    {
+                        playerAnimator.SetInteger("State", 28);
+                    }
+                }
+            }
+        }
+            }
     }
     void FixedUpdate()
     {
@@ -83,6 +154,7 @@ public class playerController : MonoBehaviour
                 {
                     if (Input.GetAxisRaw("Horizontal") == 0)
                     {
+                        playerAnimator.SetInteger("State", 0);
                         player.velocity = Vector2.zero;
                     }
 
@@ -90,26 +162,31 @@ public class playerController : MonoBehaviour
                     else if (Time.time >= playerAttack.nextMoveTime)
                     {
                         float moveHorizontal = Input.GetAxisRaw("Horizontal");
-
+                        playerAnimator.SetInteger("State", 1);
                         Vector2 movement = new Vector2(moveHorizontal, 0);
 
                         player.velocity = movement * speed;
-                        player.velocity = Vector2.ClampMagnitude(player.velocity, 5);
+                        player.velocity = Vector2.ClampMagnitude(player.velocity, maxVelocity);
                     }
                     if (Input.GetAxisRaw("Vertical") < 0)
                     {
                         if (nearStairs == false || (nearStairs == true && (stairsFacing == stairsSlope)))
                         {
+                            isCrouching = true;
+                            playerAnimator.SetInteger("State", 3);
                             player.velocity = Vector2.zero;
                             playerCollider.offset = new Vector2(0, -0.5f);
                             playerCollider.size = new Vector2(1, 1);
+                            primaryAttackPoint.localPosition = new Vector3 (0.7f, -0.375f, 0f);
                         }
                     }
 
                     else
                     {
+                        isCrouching = false;
                         playerCollider.offset = new Vector2(0, 0);
                         playerCollider.size = new Vector2(1, 2);
+                        primaryAttackPoint.localPosition = new Vector3(0.7f, -0.125f, 0f);
                     }
                     if (Input.GetAxisRaw("Vertical") > 0)
                     {
@@ -269,11 +346,13 @@ public class playerController : MonoBehaviour
             playerCollider.isTrigger = true;
             if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
             {
+                playerFacing = 1;
                 transform.localScale = new Vector3(1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
             }
             else if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
+                playerFacing = -1;
                 transform.localScale = new Vector3(-1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
@@ -286,11 +365,13 @@ public class playerController : MonoBehaviour
             playerCollider.isTrigger = true;
             if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
+                playerFacing = -1;
                 transform.localScale = new Vector3(-1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
             }
             else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
             {
+                playerFacing = 1;
                 transform.localScale = new Vector3(1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
@@ -300,13 +381,15 @@ public class playerController : MonoBehaviour
             goingDown = true;
             player.gravityScale = 0f;
             playerCollider.isTrigger = true;
-            if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") < 0)
+            if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") > 0)
             {
+                playerFacing = 1;
                 transform.localScale = new Vector3(1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
             }
-            else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") > 0)
+            else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
+                playerFacing = -1;
                 transform.localScale = new Vector3(-1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
@@ -318,11 +401,13 @@ public class playerController : MonoBehaviour
             playerCollider.isTrigger = true;
             if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
+                playerFacing = -1;
                 transform.localScale = new Vector3(-1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsEndPoint, stepRate * Time.deltaTime);
             }
             else if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") > 0)
             {
+                playerFacing = 1;
                 transform.localScale = new Vector3(1, 1, 1);
                 player.position = Vector2.MoveTowards(player.position, stairsStartPoint, stepRate * Time.deltaTime);
             }
@@ -333,6 +418,7 @@ public class playerController : MonoBehaviour
         if (playerHealth > 0)
         {
             isHit = true;
+            playerAnimator.SetInteger("State", 6);
             playerAttack.nextMoveTime = Time.time + 0.75f;
             isInvulnerable = true;
             playerHealth -= 4;
@@ -353,6 +439,7 @@ public class playerController : MonoBehaviour
     public void Die()
     {
         isDead = true;
+        playerAnimator.SetInteger("State", 7);
         //SceneManager.LoadScene()
     }
     void OnTriggerEnter2D(Collider2D collision)
