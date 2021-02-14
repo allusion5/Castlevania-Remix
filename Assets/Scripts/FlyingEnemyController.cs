@@ -18,7 +18,7 @@ public class FlyingEnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
+        //gameController = GameObject.Find("UI").GetComponentInChildren<GameController>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerAttack = player.GetComponent<playerAttack>();
         flyingEnemyTransform = GetComponent<Transform>();

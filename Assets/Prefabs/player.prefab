@@ -293,6 +293,10 @@ MonoBehaviour:
   playerController: {fileID: 0}
   secondaryAttackPoint: {fileID: 4054902467761788361}
   activeSubWeapon: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
+  axe: {fileID: 8579718418857975840, guid: c6437ba55f61f054f9d9c240074d4d1a, type: 3}
+  cross: {fileID: 873278141889758138, guid: 498ae1e0fd2de524994802624d584ffc, type: 3}
+  dagger: {fileID: 7688948318420445268, guid: 9ee4c894d10bff148ad22d23f410b5f5, type: 3}
+  holyWater: {fileID: 8063157633252260079, guid: ac2fe0dddc8f9e94cbb627cc6d002aa7, type: 3}
   heartCounter: 5
   attackRate: 0.4
   moveDelay: 0.4

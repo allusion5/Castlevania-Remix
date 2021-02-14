@@ -27,6 +27,7 @@ public class Axe : MonoBehaviour
             axe.AddForce(new Vector2(-2f, throwForce), ForceMode2D.Impulse);
         }
     }
+
         void OnBecameInvisible()
         {
         playerAttack.subWeaponsCount -= 1;

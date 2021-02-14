@@ -8,9 +8,7 @@ public class heart : MonoBehaviour
     public GameController gameController;
     public GameObject player;
     public playerAttack playerAttack;
-    //private Transform heartTransform;
     private Rigidbody2D heartRB;
-    //private bool isGrounded;
 
     void Start()
     {
@@ -30,14 +28,13 @@ public class heart : MonoBehaviour
     {
             if (collision.CompareTag("Player"))
             {
-                playerAttack.heartCounter += 1;
+            playerAttack.heartCounter += 1;
             gameController.score += 50;
                 Destroy(gameObject);
             }
             if (collision.CompareTag("Ground"))
         {
             heartRB.constraints = RigidbodyConstraints2D.FreezeAll;
-            //isGrounded = true;
             Destroy(gameObject, 4f);
         }
     }

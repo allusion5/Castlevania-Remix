@@ -7,6 +7,7 @@ using UnityEngine.Animations;
 
 public class playerController : MonoBehaviour
 {
+    public static playerController instancePC;
     private Transform playerTransform;
     private Rigidbody2D player;
     private SpriteRenderer playerSprite;
@@ -14,6 +15,7 @@ public class playerController : MonoBehaviour
     private PlayerGroundedCheck playerGroundedCheck;
     private playerAttack playerAttack;
     public Canvas UI;
+    public GameController gameController;
     public int playerHealth = 16;
     public PlayerHealthBar healthBar;
     public int playerFacing = 1;
@@ -43,8 +45,23 @@ public class playerController : MonoBehaviour
 
     private Animator playerAnimator;
     public bool isCrouching;
+
+    public int stage = 1;
+    void Awake()
+    {
+        if (instancePC == null)
+                instancePC = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
+
         playerSprite = GetComponent<SpriteRenderer>();
         playerGroundedCheck = GetComponentInChildren<PlayerGroundedCheck>();
         playerTransform = GetComponent<Transform>();
@@ -52,7 +69,8 @@ public class playerController : MonoBehaviour
         playerCollider = GetComponent<CapsuleCollider2D>();
         playerAttack = GetComponent<playerAttack>();
         UI = FindObjectOfType<Canvas>();
-        //healthBar = UI.GetComponentInChildren<PlayerHealthBar>();
+        healthBar = UI.GetComponentInChildren<PlayerHealthBar>();
+        gameController = UI.GetComponentInChildren<GameController>();
         primaryAttackPoint = transform.Find("primaryAttackPoint");
         subAttackPoint = transform.Find("subAttackPoint");
         playerAnimator = GetComponent<Animator>();
@@ -448,7 +466,6 @@ public class playerController : MonoBehaviour
         isDead = true;
         playerAnimator.Play("Death");
         playerAnimator.SetInteger("State", 7);
-        //SceneManager.LoadScene()
     }
 
     private IEnumerator InvulnerableFlash()
@@ -467,8 +484,28 @@ public class playerController : MonoBehaviour
         isInvulnerable = false;
         if (isDead == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (Input.GetKey(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            if (Input.GetKey(KeyCode.M))
+            {
+                SceneManager.LoadScene("Menu");
+            }
         }
+    }
+
+    private IEnumerator SceneTransition()
+    {
+        yield return new WaitForSecondsRealtime(5.5f);
+        playerAttack.nextMoveTime += 5.5f;
+        player.velocity = Vector2.zero;
+        onStairs = false;
+        transform.localScale = new Vector3(1, 1, 1);
+        /*STAGE2SPAWN*/player.transform.position = new Vector3(0, 0, 0);
+        gameController.timeRemaining = 90f;
+        SceneManager.LoadScene("Level" + gameController.currentStage.ToString());
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -482,7 +519,32 @@ public class playerController : MonoBehaviour
             stairsFacing = stairsInfo.facing;
             stairsSlope = stairsInfo.slope;
         }
-        if (collision.gameObject.CompareTag("Enemy") && isInvulnerable == false && isHit == false)
+
+        if (collision.gameObject.CompareTag("StageClear") && isDead == false)
+        {
+            StartCoroutine(SceneTransition());
+        }
+        if (collision.gameObject.CompareTag("Boss") && isInvulnerable == false && isHit == false)
+        {
+            TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("FlyingEnemy") && isInvulnerable == false && isHit == false)
+        {
+            TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("GroundEnemy") && isInvulnerable == false && isHit == false)
+        {
+            TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("FireAttack1") && isInvulnerable == false && isHit == false)
+        {
+            TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("FireAttack2") && isInvulnerable == false && isHit == false)
+        {
+            TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("FireAttack3") && isInvulnerable == false && isHit == false)
         {
             TakeDamage();
         }

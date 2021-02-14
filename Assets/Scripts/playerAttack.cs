@@ -16,6 +16,12 @@ public class playerAttack : MonoBehaviour
     public Transform secondaryAttackPoint;
     public GameObject activeSubWeapon;
 
+    public GameObject axe;
+    public GameObject cross;
+    public GameObject dagger;
+    public GameObject holyWater;
+
+
     public int heartCounter = 5;
     public float attackRate;
     public float moveDelay;
@@ -111,6 +117,24 @@ public class playerAttack : MonoBehaviour
             {
                 destructable.GetComponent<FlyingEnemyController>().TakeDamage(attackDamage);
             }
+            else if (destructable.CompareTag("Boss"))
+            {
+                destructable.GetComponent<BossController>().TakeDamage(attackDamage);
+            }
+            else if (destructable.CompareTag("FireAttack1"))
+            { 
+                destructable.GetComponent<BossAttack>().TakeDamage(attackDamage); 
+            }
+            else if (destructable.CompareTag("FireAttack2"))
+            { 
+                destructable.GetComponent<BossAttack2>().TakeDamage(attackDamage); 
+            }
+            else if (destructable.CompareTag("FireAttack3"))
+            {
+                destructable.GetComponent<BossAttack3>().TakeDamage(attackDamage); 
+            }
+            else
+                return;
         }
     }
 

@@ -7,7 +7,14 @@ TagManager:
   - Ground
   - Stairs
   - Weapon
-  - Enemy
+  - FireAttack1
+  - FireAttack2
+  - FireAttack3
+  - FlyingEnemy
+  - GroundEnemy
+  - Boss
+  - Secret
+  - StageClear
   layers:
   - Default
   - TransparentFX
